@@ -1,0 +1,15 @@
+
+
+FACTORIES PROVIDES THE FAKE DATA WHILE SEEDING LOADS THESE DATA INTO THE DATABASE
+
+To Create a Factory
+(php artisan make:factory FactoryName --model=ModelName )
+
+Then
+
+To See
+(php artisan db:seed)
+
+
+TO WIPE THE DATABASE AND MIGRATE IT AFRESH AND ALSO SEED IT (sending dummy data to the db)
+(php artisan migrate:refresh --seed)
